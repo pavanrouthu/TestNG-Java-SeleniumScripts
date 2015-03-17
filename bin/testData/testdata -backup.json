@@ -1,0 +1,15 @@
+{
+"username":"testotext3",
+"password":"password",
+"ccnumber":"4111111111111111",
+"cctype":"VISA",
+"ccmonth":"06",
+"ccyear":"2020",
+"ccv":"123",
+"ccname":"testCC",
+"product":[
+    {"name":"null", "domainspace":".com"},
+    {"name":"null", "domainspace":".net"},
+    {"name":"cpanel-hosting", "domainspace":".com"}
+]
+}

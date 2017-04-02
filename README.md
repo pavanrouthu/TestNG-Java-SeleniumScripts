@@ -1,1 +1,1 @@
-# MITRetail-SeleniumScripts
+# TESTNG-SeleniumScripts

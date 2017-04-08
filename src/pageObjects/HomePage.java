@@ -12,8 +12,8 @@ public class HomePage {
 
 	try{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://stage.melbourneit.com.au/cart/clear");
-	    driver.get("https://stage.melbourneit.com.au");
+		driver.get("https://<site>/cart/clear");
+	    driver.get("https://<site>");
 	    Reporter.log("Test Execution Started for " + domSpace + "\n"+"<br>");
 	    driver.findElement(By.cssSelector("div.element-group > input[name=\"query\"]")).clear();
 	    driver.findElement(By.cssSelector("div.element-group > input[name=\"query\"]")).sendKeys(domain);
